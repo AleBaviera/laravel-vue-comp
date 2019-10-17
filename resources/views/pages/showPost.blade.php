@@ -1,4 +1,4 @@
-@extends('layout.post-layout')
+@extends('layouts.main-layout')
 @section('content')
 <a href="{{route('pressIndex')}}">BACK</a>
 
@@ -6,7 +6,7 @@
   <p>Title: {{$post-> title}}</p>
   <p>Author: {{$post-> author}}</p>
   <p>Content: {!!$post-> content!!}</p>
-  
+
 </div>
 
 @endsection
