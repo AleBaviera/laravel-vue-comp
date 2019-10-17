@@ -3,7 +3,9 @@
 
 
 
-
+<div id="app1">
+  <h1>@{{ hello }}</h1>
+</div>
 
 <?php foreach ($posts as $post): ?>
 <div class="box">
